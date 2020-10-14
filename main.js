@@ -5,7 +5,7 @@ const userList=document.getElementById('users');
 
 const socket=io();
 
-const { username , room }=Qs.parse(location.search,{
+const { username , room } = Qs.parse(location.search,{
   ignoreQueryPrefix:true
 })
 
